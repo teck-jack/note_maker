@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://note-maker-1-hduy.onrender.com/';
+const API_BASE_URL = 'https://note-maker-1-hduy.onrender.com/api/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
